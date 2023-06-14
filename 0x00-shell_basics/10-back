@@ -1,0 +1,4 @@
+#!/bin/bash
+
+previous_dir=$(dirs -l -p | sed -n '2{p;q}')
+cd "$previous_dir"

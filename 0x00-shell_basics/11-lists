@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Current directory
+echo "Current Directory:"
+ls -lA
+
+# Parent directory of the working directory
+echo "Parent Directory:"
+ls -lA ..
+
+# /boot directory
+echo "/boot Directory:"
+ls -lA /boot
