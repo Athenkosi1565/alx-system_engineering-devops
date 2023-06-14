@@ -1,0 +1,23 @@
+total 40
+drwxr-xr-x 2 root root 4096 Jun 13 05:44 .
+drwxr-xr-x 5 root root   92 Jun 12 04:56 ..
+-rwxrwxrwx 1 root root   33 Jun 12 04:57 0-hello_world0
+-rw-r--r-- 1 root root    0 Jun 12 04:57 0-hello_world0~
+-rw-r--r-- 1 root root    0 Jun 12 04:57 0-hello_world0-hello_worl
+-rwxrwxrwx 1 root root   29 Jun 12 05:01 1-confused_smiley
+-rw-r--r-- 1 root root    0 Jun 12 05:00 1-confused_smiley~
+-rwxrwxrwx 1 root root   29 Jun 12 05:04 2-hellofile
+-rw-r--r-- 1 root root    0 Jun 12 05:04 2-hellofile~
+-rwxrwxrwx 1 root root  570 Jun 12 05:08 3-twofiles
+-rw-r--r-- 1 root root    0 Jun 12 05:07 3-twofiles~
+-rwxrwxrwx 1 root root   36 Jun 12 05:13 4-lastlines
+-rw-r--r-- 1 root root    0 Jun 12 05:09 4-lastlines~
+-rwxr-xr-x 1 root root   36 Jun 13 05:37 5-firstlines
+-rw-r--r-- 1 root root    0 Jun 13 05:36 5-firstlines~
+-rwxr-xr-x 1 root root   41 Jun 13 05:39 6-third_line
+-rw-r--r-- 1 root root    0 Jun 13 05:39 6-third_line~
+-rwxrwxrwx 1 root root  167 Jun 13 05:42 7-file
+-rw-r--r-- 1 root root    0 Jun 13 05:41 7-file~
+-rwxrwxrwx 1 root root   37 Jun 13 05:43 8-cwd_state
+-rw-r--r-- 1 root root    0 Jun 13 05:43 8-cwd_state~
+-rw-r--r-- 1 root root    0 Jun 13 05:44 ls_cwd_content

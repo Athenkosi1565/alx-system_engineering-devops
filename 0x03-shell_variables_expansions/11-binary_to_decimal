@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Retrieve the value stored in the environment variable BINARY
+binary=$BINARY
+
+# Use the `bc` command for base conversion and print the result
+echo "ibase=2; $binary" | bc

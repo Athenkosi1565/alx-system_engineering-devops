@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Define the file name
+file_name='\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+
+# Create the file with the specified content
+echo "Best School" > "$file_name"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Retrieve the value stored in the environment variable TRUEKNOWLEDGE
+value=$TRUEKNOWLEDGE
+
+# Perform the addition
+result=$((value + 128))
+
+# Print the result followed by a new line
+echo $result
+11;rgb:0000/0000/0000

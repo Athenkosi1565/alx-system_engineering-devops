@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Read input from stdin
+input=$(cat)
+
+# Remove 'c' and 'C' characters using tr
+output=$(echo "$input" | tr -d 'cC')
+
+# Print the modified output
+echo "$output"

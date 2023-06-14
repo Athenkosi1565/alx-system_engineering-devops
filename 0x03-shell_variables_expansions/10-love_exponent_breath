@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Retrieve the values stored in the environment variables BREATH and LOVE
+breath=$BREATH
+love=$LOVE
+
+# Calculate the result using the `bc` command for exponentiation
+result=$(echo "$breath ^ $love" | bc)
+
+# Print the result followed by a new line
+echo $result

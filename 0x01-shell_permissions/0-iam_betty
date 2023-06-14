@@ -1,0 +1,4 @@
+#!/bin/bash
+
+su -c "whoami" betty
+0;276;0c

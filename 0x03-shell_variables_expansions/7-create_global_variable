@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Set the value of the global variable
+BEST="School"
+
+# Export the global variable
+export BEST

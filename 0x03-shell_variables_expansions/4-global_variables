@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Iterate over each environment variable and print its name and value
+for variable in $(printenv)
+do
+    echo "$variable"
+done

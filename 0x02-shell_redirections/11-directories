@@ -1,0 +1,13 @@
+#!/bin/bash
+
+count=0
+
+# Loop through the directories and subdirectories in the current directory
+for entry in */; do
+  # Exclude the current and parent directories
+  if [[ "$entry" != "." && "$entry" != ".." ]]; then
+    count=$((count+1))
+  fi
+done
+
+echo "$count"

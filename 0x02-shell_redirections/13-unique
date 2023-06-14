@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Read the input words from standard input
+# Sort the words
+# Count the occurrences of each word using 'uniq -c'
+# Filter the words that appear exactly once using 'awk'
+# Print only the word from each line
+sort | uniq -c | awk '$1 == 1 {print $2}'
